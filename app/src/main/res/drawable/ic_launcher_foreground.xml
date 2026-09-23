@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- TV Outer Frame: 28,30 to 80,72 -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M30,30 C27.8,30 26,31.8 26,34 L26,68 C26,70.2 27.8,72 30,72 L48,72 L46,78 L42,78 C40.9,78 40,78.9 40,80 C40,81.1 40.9,82 42,82 L66,82 C67.1,82 68,81.1 68,80 C68,78.9 67.1,78 66,78 L62,78 L60,72 L78,72 C80.2,72 82,70.2 82,68 L82,34 C82,31.8 80.2,30 78,30 Z M76,66 L32,66 L32,36 L76,36 Z" />
+    <!-- TV Screen Glass inner / Play Button -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,43 L64,51 L48,59 Z" />
+    <!-- Stream waves indicator -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M68,26 C72,28.5 75,32.5 76,37 L73,38 C72,34.5 69.5,31 66,29 Z" />
+    <path
+        android:fillColor="#E0F2FE"
+        android:pathData="M73,22 C78.5,25.5 82.5,31 84,37 L81,38 C79.5,33 76,28 71,25 Z" />
+</vector>

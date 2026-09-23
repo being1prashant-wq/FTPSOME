@@ -1,0 +1,6 @@
+{
+  "name": "FTP TV Player",
+  "description": "Lightweight FTP media browser and streaming player for Android TV 9.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

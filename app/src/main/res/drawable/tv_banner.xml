@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- Deep Cinematic Background Gradient -->
+    <path
+        android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0B132B" />
+                <item android:offset="0.6" android:color="#1C2541" />
+                <item android:offset="1.0" android:color="#0A2463" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Ambient TV glow -->
+    <path
+        android:pathData="M160,20 A70,70 0 1 0 160,160 A70,70 0 1 0 160,20 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="160"
+                android:centerY="90"
+                android:gradientRadius="70"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#3300D2FF" />
+                <item android:offset="1.0" android:color="#0000D2FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- TV Display Icon -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M110,48 C105.6,48 102,51.6 102,56 L102,110 C102,114.4 105.6,118 110,118 L150,118 L146,128 L138,128 C135.8,128 134,129.8 134,132 C134,134.2 135.8,136 138,136 L182,136 C184.2,136 186,134.2 186,132 C186,129.8 184.2,128 182,128 L174,128 L170,118 L210,118 C214.4,118 218,114.4 218,110 L218,56 C218,51.6 214.4,48 210,48 Z M208,108 L112,108 L112,58 L208,58 Z" />
+    <!-- Play Triangle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M150,68 L178,83 L150,98 Z" />
+    <!-- Wi-Fi stream waves on right -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M192,42 C199,47 205,54 208,63 L203,65 C200,57 195,51 189,46 Z" />
+    <path
+        android:fillColor="#7DD3FC"
+        android:pathData="M201,34 C211,41 219,51 223,63 L218,65 C214,54 207,45 198,39 Z" />
+</vector>
